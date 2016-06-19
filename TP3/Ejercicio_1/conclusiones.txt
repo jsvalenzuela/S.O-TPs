@@ -13,7 +13,7 @@ las conclusiones.
 
 = Velocidad =
 Se puede observar que los procesos livianos se ejecutan más rápidamente que los
-procesos livianos al realizar tareas de lectura:
+procesos pesados al realizar tareas de lectura:
 
 +-----------------------------+-------------------------+------------------------+
 |                             | Proceso Liviano Lectura | Proceso Pesado Lectura |
