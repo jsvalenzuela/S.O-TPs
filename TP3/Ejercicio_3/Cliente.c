@@ -37,7 +37,7 @@ int main(void)
  }
 
  getrusage(RUSAGE_SELF,&usage);
- tiempoSistema = usage.tv_sec * 1e6 + usage.tv_usec;
+ tiempoSistema = usage.ru_stime.tv_sec * 1e6 + usage.ru_stime.tv_usec;
  printf ("Tiempo de CPU del proceso A: %ld.%06ld sec user, %ld.%06ld sec system bloques entrada %ld bloques salida%ld\n",
           usage.ru_utime.tv_sec, usage.ru_utime.tv_usec,
           usage.ru_stime.tv_sec, usage.ru_stime.tv_usec, usage.ru_inblock, usage.ru_oublock);
