@@ -40,11 +40,11 @@ int main(void)
  }
 
  getrusage(RUSAGE_SELF,&usage);
- long tiempo_total = get_micro() - tiempo_arranque;
- long tiempo_sistema = get_micro_desde_timeval(usage.ru_stime);
- long tiempo_usuario = get_micro_desde_timeval(usage.ru_utime);
+ tiempo_total = get_micro() - tiempo_arranque;
+ tiempo_sistema = get_micro_desde_timeval(usage.ru_stime);
+ tiempo_usuario = get_micro_desde_timeval(usage.ru_utime);
  
- printf ("Tiempo de CPU del proceso A: %ld.%06ld sec reloj, %ld.%06ld sec user, %ld.%06ld sec system bloques entrada %ld bloques salida%ld\n",
+ printf ("Tiempo de CPU del proceso B: %ld.%06ld sec reloj, %ld.%06ld sec user, %ld.%06ld sec system bloques entrada %ld bloques salida%ld\n",
           tiempo_total,tiempo_total,
           tiempo_usuario, tiempo_usuario,
           tiempo_sistema, tiempo_sistema, usage.ru_inblock, usage.ru_oublock);
