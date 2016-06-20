@@ -1,0 +1,60 @@
+				...........ESTADISTICAS...........
+
+Caso Archivos:
+
+Tiempo Reloj:..........................43246 µs
+El Tiempo de CPU del Sistema es de:....20000 µs
+El Tiempo de CPU del Usuario es de:....8000 µs
+Peticiones de pagina(soft page faults):267
+Fallo  de pagina ( hard page faults):..0
+Operaciones de Entrada (en bloques):...0
+Operaciones de Salida (en bloques):....88
+Mensajes IPC enviados:.................0
+Mensajes IPC recibido:.................0
+
+Caso FIFO
+
+Tiempo Reloj:..........................43452 µs
+El Tiempo de CPU del Sistema es de:....16000 µs
+El Tiempo de CPU del Usuario es de:....12000 µs
+Peticiones de pagina(soft page faults):238
+Fallo  de pagina ( hard page faults):..0
+Operaciones de Entrada (en bloques):...0
+Operaciones de Salida (en bloques):....0
+Mensajes IPC enviados:.................0
+Mensajes IPC recibido:.................0
+
+Caso Memoria Compartida:
+
+Tiempo Reloj:..........................41807 µs
+El Tiempo de CPU del Sistema es de:....24000 µs
+El Tiempo de CPU del Usuario es de:....0 µs
+Peticiones de pagina(soft page faults):260
+Fallo  de pagina ( hard page faults):..0
+Operaciones de Entrada (en bloques):...0
+Operaciones de Salida (en bloques):....0
+Mensajes IPC enviados:.................0
+Mensajes IPC recibido:.................0
+
+Caso Socket (1PC):
+
+Tiempo Reloj:..........................92639 µs
+El Tiempo de CPU del Sistema es de:....52000 µs
+El Tiempo de CPU del Usuario es de:....4000 µs
+Peticiones de pagina(soft page faults):240
+Fallo  de pagina ( hard page faults):..0
+Operaciones de Entrada (en bloques):...0
+Operaciones de Salida (en bloques):....0
+Mensajes IPC enviados:.................0
+Mensajes IPC recibido:.................0
+
+Caso Socket (2PC): // arreglar
+Tiempo Reloj:..........................178982 µs
+El Tiempo de CPU del Sistema es de:....75000 µs
+El Tiempo de CPU del Usuario es de:....9000 µs
+Peticiones de pagina(soft page faults):250
+Fallo  de pagina ( hard page faults):..0
+Operaciones de Entrada (en bloques):...0
+Operaciones de Salida (en bloques):....0
+Mensajes IPC enviados:.................0
+Mensajes IPC recibido:.................0
