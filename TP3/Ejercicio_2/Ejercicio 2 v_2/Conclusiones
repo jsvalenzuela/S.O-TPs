@@ -1,4 +1,5 @@
 Conclusiones:
+
 1- Analice el comportamiento y los datos obtenidos en cada uno de los casos,
 compare los resultados entre los mismos y explique a qué se deben las
 diferencias y similitudes en los comportamientos observados.
@@ -8,12 +9,13 @@ instalación para que esto suceda.
 3- Indique que conceptos teóricos están involucrados en cada uno de los
 casos.
 
-1) En los casos de comunicacion archvivo, fifo, y memoria compartida hay un promedio de 42000 µs, pero em socket hay un doble de este tiempo. 
-
-
+1) En los casos de comunicacion  compartida hay un promedio de 42000 µs, pero en socket hay un doble de este tiempo. 
+   Donde el caso de archivos es el unico que tiene bloques de salida, y por ende mas lento a la larga.
+   Todos los Casos tienen similar numero de paginas en memoria. 
+   
 2) En entornos distribuidos pueden usarse la comunicación por sockets en red.
-También la comunicación mediante un archivo podría realizarse en un entorno distribuido, ya que con solo poder acceder al mismo, cualquier proceso de un determinado sistema podría escribir algo en el o leerlo. De la manera que usamos las colas es el mismo sistema.
-La memoria compartida por su parte, solo se podría utilizar en un sistema, ya que el propio sistema operativo es quien reserva ese espacio en el sistema para que puedan usarlo los procesos, y los semáforos, por lo que en otro sistema no se podría tener acceso a esos semáforos.
+   También la comunicación mediante un archivo podría realizarse en un entorno distribuido, ya que con solo poder acceder al mismo, cualquier proceso de un determinado sistema podría escribir algo en el o leerlo. De la manera que usamos las colas es el mismo sistema.
+   La memoria compartida por su parte, solo se podría utilizar en un sistema, ya que el propio sistema operativo es quien reserva ese espacio en el sistema para que puedan usarlo los procesos, y los semáforos, por lo que en otro sistema no se podría tener acceso a esos semáforos.
 
 3) Los conceptos teóricos que se manejan son sincronización y comunicación entre pocesos por medio de archivos,colas, memoria compartida y sockets. 
-Hemos utilizado semáforos para dicha sincronización. Se han utilizado estadísticas del sistema ( la estructura rusage ) para calcular los tiempos de usuario y sistema, los fallos de página, etc.
+   Hemos utilizado semáforos para dicha sincronización. Se han utilizado estadísticas del sistema ( la estructura rusage ) para calcular los tiempos de usuario y sistema, los fallos de página, etc.
