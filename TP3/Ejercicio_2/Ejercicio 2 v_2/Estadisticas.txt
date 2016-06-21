@@ -48,10 +48,10 @@ Operaciones de Salida (en bloques):....0
 Mensajes IPC enviados:.................0
 Mensajes IPC recibido:.................0
 
-Caso Socket (2PC): // arreglar
+Caso Socket (2PC):
 Tiempo Reloj:..........................178982 µs
-El Tiempo de CPU del Sistema es de:....75000 µs
-El Tiempo de CPU del Usuario es de:....9000 µs
+El Tiempo de CPU del Sistema es de:....79000 µs
+El Tiempo de CPU del Usuario es de:....9500 µs
 Peticiones de pagina(soft page faults):250
 Fallo  de pagina ( hard page faults):..0
 Operaciones de Entrada (en bloques):...0
